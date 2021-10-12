@@ -1,0 +1,46 @@
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+$ git config --list   >> wyswietl konfiguracje
+
+
+git status    >>   Sprawdzanie stanu twoich plików
+
+$ git add README  >> śledzenie nowych plików
+
+git add .  >> dodaje wszystkie pliki do poczekalni
+
+git commit -m "comment"  
+
+rm nazwa_pliku  >> usuwanie pliku z gita
+
+git log  >> przegląd historii
+
+git log -p  >> pokazuje różnice wprowadzone z każdą rewizją
+
+git log --stat  >> skrócone statystyki zmian
+
+git remote -v   >> wyświetlenie zdalnych repozytoriów
+
+git remote add [skrót] [url]
+np.  $ git remote add pb https://github.com/paulboone/ticgit   >>  dodawanie zdalnych repozytoriów
+$ git remote -v   
+
+git fetch pb   >> pobieranie informacji ze zdalnego repozytorium (nie scala automatycznie zmian z żadnych z plików roboczych i ich nie modyfikuje)
+
+git pull >> pobiera dane (fetch) i je scala z lokalnymi plikami (merge)
+
+git push [nazwa-zdalnego-repo] [nazwa-gałęzi]  np. $ git push origin master  >>  wysyłanie zmian do repozytoriów zdalnych
+
+git remote show [nazwa-zdalnego-repo]   np.  git remote show origin     >>   przegląd zdalnych repozytoriów
+
+
+git branch  >> wyświetla wszystkie gałęzie
+
+git branch testing  >> tworzy nową gałąź "testing" ale nie przełącza na nią
+
+git checkout testing  >> przełączanie do gałęzi "testing"
+
+
+
+         
